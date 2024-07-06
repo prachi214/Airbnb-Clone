@@ -8,10 +8,6 @@ Welcome to the full-stack Airbnb clone project. This application allows users to
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
-
 **Frontend:** HTML, CSS, JavaScript,Bootstrap 
 
 **Backend:** Node.js, Express.js 
@@ -19,6 +15,7 @@ Welcome to the full-stack Airbnb clone project. This application allows users to
 **Database:** MongoDB 
 
 **Hosting:** Render.com
+
 ## Features
 
 - User Authentication: Secure user registration, login, and logout functionality powered by Passport.
