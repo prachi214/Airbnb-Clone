@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow: hidden; */
+  
 }
 body{
     font-family:  'Plus Jakarta Sans', sans-serif !important;
@@ -12,9 +12,6 @@ body{
     min-height: 100vh;
 
 }
-
-
-
 .container{
     flex: 1;
 }
@@ -57,7 +54,6 @@ vertical-align: middle;
 }
 
 .f-info-socials i{
-
     margin-right: 1rem;
     font-size: 1.5rem;
     color: azure;
@@ -71,27 +67,6 @@ vertical-align: middle;
     transform: scale(1.7);
 
 }
-
- /* .sidebar_menu .social_media i{
-
-    color:black;
-    opacity: 0.7;
-    padding: 0.7px;
-   
-   
-}
-.sidebar_menu .social_media {
-
-    
- 
-    position: absolute;
-   left: 25%;
-   bottom: 50px;
-   
-   
-}  */
-
-
 
 .f-info{
     text-align: center;
@@ -152,7 +127,6 @@ vertical-align: middle;
 .edit-btn{
     background-color: #fe424d !important;
     border: none !important; 
-    
 }
 
 /* Show Page */
@@ -160,7 +134,6 @@ vertical-align: middle;
 .show-img{
     height: 30vh;
 }
-
 .btns{
     display: flex;
 
@@ -169,13 +142,9 @@ vertical-align: middle;
 .show-card{
     padding-left: 0;
     padding-right: 0;
- 
     color: (--text);
 
 }
-
-
-
 @media (min-width: 340px) {
     .navbar-expand-md .navbar-collapse {
         display: flex !important;
@@ -183,30 +152,16 @@ vertical-align: middle;
     }
 
 }
-
 @media(max-width: 768px){
-
-    div#navbarNavAltMarkup.collapse.navbar-collapse{
+div#navbarNavAltMarkup.collapse.navbar-collapse{
         flex-basis: 100%;
         flex-grow: 1;
     }
-
-
-
-
 }
-
-
-
-
-
-
 @media(max-width: 790px){
     .me-2 {
          margin-right: 0px;
-    }
-    
-    
+    }   
 }
 
 @media(max-width: 610px){
@@ -218,8 +173,6 @@ vertical-align: middle;
         padding: 10px 0px 8px 10px;
         border-radius: 25px;
         font-size: 0.9rem;
-/*     
-    font-size: 6px; */
   margin-bottom: 3rem;
     }
     .slick-prev:before {
@@ -227,28 +180,13 @@ vertical-align: middle;
     }
     .slick-next:before {
         margin-left: -3rem;
-    } 
-
-
-
-
-
-    
+    }     
 }
-
 @media(max-width: 510px){
-
     input.form-control.me-2.search-inp{
+font-size: 0.6rem;
 
-        font-size: 0.6rem;
-
-    }
-
-    /* .slick-next:before {
-        margin-right: 8rem;
-    }  */
-
-    
+    }   
 }
 
 
