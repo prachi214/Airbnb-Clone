@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow: hidden; */
+  
 }
 body{
     font-family:  'Plus Jakarta Sans', sans-serif !important;
@@ -12,9 +12,6 @@ body{
     min-height: 100vh;
 
 }
-
-
-
 .container{
     flex: 1;
 }
@@ -57,7 +54,6 @@ vertical-align: middle;
 }
 
 .f-info-socials i{
-
     margin-right: 1rem;
     font-size: 1.5rem;
     color: azure;
@@ -72,7 +68,10 @@ vertical-align: middle;
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8fd0c5b3df39e39d46f95694df983dd2defb723b
 .f-info{
     text-align: center;
     height: 8rem;
@@ -132,7 +131,6 @@ vertical-align: middle;
 .edit-btn{
     background-color: #fe424d !important;
     border: none !important; 
-    
 }
 
 
@@ -143,7 +141,6 @@ vertical-align: middle;
 .show-img{
     height: 30vh;
 }
-
 .btns{
     display: flex;
 
@@ -152,14 +149,16 @@ vertical-align: middle;
 .show-card{
     padding-left: 0;
     padding-right: 0;
- 
     color: (--text);
 
 }
+<<<<<<< HEAD
 
 
 /* media query for home page */
 
+=======
+>>>>>>> 8fd0c5b3df39e39d46f95694df983dd2defb723b
 @media (min-width: 340px) {
     .navbar-expand-md .navbar-collapse {
         display: flex !important;
@@ -167,30 +166,16 @@ vertical-align: middle;
     }
 
 }
-
 @media(max-width: 768px){
-
-    div#navbarNavAltMarkup.collapse.navbar-collapse{
+div#navbarNavAltMarkup.collapse.navbar-collapse{
         flex-basis: 100%;
         flex-grow: 1;
     }
-
-
-
-
 }
-
-
-
-
-
-
 @media(max-width: 790px){
     .me-2 {
          margin-right: 0px;
-    }
-    
-    
+    }   
 }
 
 @media(max-width: 610px){
@@ -202,8 +187,6 @@ vertical-align: middle;
         padding: 10px 0px 8px 10px;
         border-radius: 25px;
         font-size: 0.9rem;
-/*     
-    font-size: 6px; */
   margin-bottom: 3rem;
     }
     .slick-prev:before {
@@ -211,31 +194,32 @@ vertical-align: middle;
     }
     .slick-next:before {
         margin-left: -3rem;
-    } 
-
-
-
-
-
-    
+    }     
 }
-
 @media(max-width: 510px){
-
     input.form-control.me-2.search-inp{
+font-size: 0.6rem;
 
+<<<<<<< HEAD
         font-size: 0.6rem;
 
     }
 
 
     
+=======
+    }   
+>>>>>>> 8fd0c5b3df39e39d46f95694df983dd2defb723b
 }
 
 
 
+<<<<<<< HEAD
 
 
 
 
     
+=======
+    
+>>>>>>> 8fd0c5b3df39e39d46f95694df983dd2defb723b
