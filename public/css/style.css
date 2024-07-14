@@ -68,10 +68,7 @@ vertical-align: middle;
 
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 8fd0c5b3df39e39d46f95694df983dd2defb723b
 .f-info{
     text-align: center;
     height: 8rem;
@@ -150,15 +147,11 @@ vertical-align: middle;
     padding-left: 0;
     padding-right: 0;
     color: (--text);
-
 }
-<<<<<<< HEAD
 
 
-/* media query for home page */
 
-=======
->>>>>>> 8fd0c5b3df39e39d46f95694df983dd2defb723b
+
 @media (min-width: 340px) {
     .navbar-expand-md .navbar-collapse {
         display: flex !important;
@@ -199,27 +192,6 @@ div#navbarNavAltMarkup.collapse.navbar-collapse{
 @media(max-width: 510px){
     input.form-control.me-2.search-inp{
 font-size: 0.6rem;
-
-<<<<<<< HEAD
-        font-size: 0.6rem;
-
-    }
+    }}
 
 
-    
-=======
-    }   
->>>>>>> 8fd0c5b3df39e39d46f95694df983dd2defb723b
-}
-
-
-
-<<<<<<< HEAD
-
-
-
-
-    
-=======
-    
->>>>>>> 8fd0c5b3df39e39d46f95694df983dd2defb723b
