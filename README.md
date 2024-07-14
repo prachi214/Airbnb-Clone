@@ -61,6 +61,6 @@ Start the server
 
 ## 🔗 Link of this Project
 
-https://airbnb-u37i.onrender.com/listings
+https://airbnb-clone-680c.onrender.com
 
 
