@@ -106,13 +106,28 @@ app.all("*",(res,req,next) =>{
     next(new ExpressError(404, "Page not Found!"));
 });
 
+
+
+
 // error handling middleware
+app.use((err, req, res, next) => {
+    let { statusCode = 500, message = "Something went wrong!" } = err;
 
-app.use((err, req,res, next) =>{
-    let {statusCode = 500, message = "Something went wrong!"} = err;
-    res.status(statusCode).render("error.ejs", {message});
+    // Check if it's a 404 error and redirect to /listings
+    if (statusCode === 404) {
+        return res.redirect('/listings');
+    }
 
+    res.status(statusCode).render("error.ejs", { message });
 });
+
+
+
+// app.use((err, req,res, next) =>{
+//     let {statusCode = 500, message = "Something went wrong!"} = err;
+//     res.status(statusCode).render("error.ejs", {message});
+
+// });
 
 app.listen(8080, ()=>{
     console.log("server is listening to port 8080");

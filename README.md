@@ -21,6 +21,7 @@ Welcome to the full-stack Airbnb clone project. This application allows users to
 - User Authentication: Secure user registration, login, and logout functionality powered by Passport.
 - Property Management: Authenticated users can create and manage property listings with details such as title, description, location, price, and images. 
 - Property Discovery: Users can search and filter properties based on location, availability, and other criteria.
+- Media Query:  I tried to make responsive UI for different devices through media queries.
 
 
 
@@ -58,6 +59,8 @@ Start the server
  node app.js
 ```
 
+## 🔗 Link of this Project
 
+https://airbnb-u37i.onrender.com/listings
 
 
