@@ -1,21 +1,28 @@
 <!-- success is a arr it's length should be >0 -->
 <% if(success && success.length){ %>
-    <div  class="alert alert-success alert-dismissible fade show col-6 offset-3" role="alert">
-
-        <%= success %>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-
-        </button>
+  <div class="container my-2">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+          <%= success %>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-        <%}%>
+      </div>
+    </div>
+  </div>
+<% } %>
 
-        <% if(error && error.length){ %>
-            <div  class="alert alert-danger alert-dismissible fade show col-6 offset-3" role="alert">
-        
-                <%= error %> 
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-        
-                </button>
-                </div>
-                <%}%>
+<% if(error && error.length){ %>
+  <div class="container my-2">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          <%= error %>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+<% } %>
+
         
